@@ -5,13 +5,11 @@ const Header = () => (
 	<header>
 		<h1> RR library </h1>
 		<nav>
-			<ul>
-				<li className="selected"> <NavLink to="/">Home</NavLink> </li>
-				<li> The toplist </li>
-				<li> Find a book </li>
-				<li> My favorites </li>
-				<li> Get a library card </li>
-			</ul>
+			<NavLink to="/">Home</NavLink>
+			<NavLink to="/toplist">The toplist</NavLink>
+			<NavLink to="/find-book">Find a book</NavLink>
+			<NavLink to="/favorites">My favorites</NavLink>
+			<NavLink to="/get-a-card">Get a library card</NavLink>
 		</nav>
 	</header>
 )
