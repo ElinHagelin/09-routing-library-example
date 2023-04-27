@@ -38,7 +38,7 @@ const FindBook = () => {
 			<p>Matches:</p>
 			<ul className='book-list-container'>
 				{matches.map(book => (
-					<ViewBook key={book.id} book={book} />
+					<ViewBook key={book.id} book={book} tab={'find-book'} />
 				))}
 			</ul>
 		</div>
