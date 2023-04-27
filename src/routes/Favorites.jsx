@@ -17,7 +17,4 @@ const Favorites = () => {
 	)
 }
 
-// <li> To Kill a Mockingbird, Harper Lee
-// 	<button>👎 Actually, I hate it now (unfavorite) </button>
-// </li>
 export default Favorites
