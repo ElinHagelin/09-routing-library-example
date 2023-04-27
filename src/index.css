@@ -147,6 +147,16 @@ main h2 {
 	max-width: fit-content;
 }
 
+.error-message {
+	color: red;
+	margin: 0;
+}
+
+.hidden {
+	visibility: hidden;
+	margin: 0;
+}
+
 
 @media screen and (min-width: 600px) {
 	.book-container {
